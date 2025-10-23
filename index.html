@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="GraceInCode - Aspiring JavaScript Developer Portfolio">
+    <title>GraceInCode | JavaScript Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <a href="#home" class="logo">GraceInCode</a>
+                <button id="theme-toggle" style="background: none; border: none; cursor: pointer; font-size: 1.5rem;">
+                        🌙
+                </button>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                
+                <h1>Hi, I'm Adam</h1>
+                <p class="tagline">Aspiring JS Developer</p>
+                <p class="hero-description">Building web apps with JavaScript, one line of code at a time.</p>
+                <a href="#projects" class="cta-button">View My Work</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <p>I'm a passionate web developer focused on building clean, functional applications with JavaScript. My journey into coding started with curiosity and has grown into a commitment to crafting quality software.</p>
+                <p>I work primarily with vanilla JavaScript, HTML, and CSS, and I'm constantly expanding my skills through hands-on projects. I believe in writing code that's readable, maintainable, and solves real problems.</p>
+                <div class="skills">
+                    <h3>Skills & Tools</h3>
+                    <ul>
+                        <li>JavaScript (ES6+)</li>
+                        <li>HTML5 & CSS3</li>
+                        <li>Responsive Design</li>
+                        <li>Git & GitHub</li>
+                        <li>VS Code</li>
+                        <li>Web Development Best Practices</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                
+                <!-- Project 1: Odin-Book -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="./images/odin-book-main-page.png" alt="Odin-Book Screenshot">
+                    </div>
+                    <div class="project-info">
+                        <h3>Odin-Book</h3>
+                        <p>A full-featured social network application where users can create profiles, share posts, connect with friends, and interact through likes and comments.</p>
+                        <p class="project-why"><strong>Why I built this:</strong> To understand social media architecture, user authentication, and real-time data management.</p>
+                        <p class="render-note"><em>Note: Hosted on Render's free tier. Initial load may take 30-60 seconds as the server wakes up.</em></p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">Express</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/GraceInCode/odin-book" target="_blank" rel="noopener" class="btn-secondary">GitHub</a>
+                            <a href="https://odin-book-9det.onrender.com/auth/login" target="_blank" rel="noopener" class="btn-primary">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: Message App -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="./images/message-app-main-page.png" alt="Message App Screenshot">
+                    </div>
+                    <div class="project-info">
+                        <h3>Message App</h3>
+                        <p>A real-time messaging application enabling users to send and receive messages instantly, with features for creating chat rooms and managing conversations.</p>
+                        <p class="project-why"><strong>Why I built this:</strong> To learn WebSocket communication, real-time updates, and building interactive user experiences.</p>
+                        <p class="render-note"><em>Note: Hosted on Render's free tier. Initial load may take 30-60 seconds as the server wakes up.</em></p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">WebSockets</span>
+                            <span class="tech-tag">Express</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/GraceInCode/message-app" target="_blank" rel="noopener" class="btn-secondary">GitHub</a>
+                            <a href="https://message-app-w365.onrender.com" target="_blank" rel="noopener" class="btn-primary">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Placeholder for additional projects -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="./images/nothing-yet.png" alt="Additional Projects">
+                    </div>
+                    <div class="project-info">
+                        <h3>More Projects Coming Soon</h3>
+                        <p>I'm constantly building and learning. Check out my GitHub for additional projects and experiments.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/GraceInCode?tab=repositories" target="_blank" rel="noopener" class="btn-primary">View All Repositories</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <p class="contact-intro">I'm always open to discussing new projects, opportunities, or just connecting with fellow developers.</p>
+            
+            <!-- Direct Contact Info -->
+            <div class="contact-info">
+                <div class="contact-item">
+                    <strong>Email:</strong> <a href="mailto:your.email@example.com">your.email@example.com</a>
+                </div>
+                <div class="contact-item">
+                    <strong>Phone:</strong> <a href="tel:+1234567890">+1 (234) 567-890</a>
+                </div>
+            </div>
+            
+            <form action="https://formspree.io/f/xeorbadg" method="POST" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn-primary">Send Message</button>
+            </form>
+            <div class="social-links">
+                <a href="https://github.com/GraceInCode" target="_blank" rel="noopener" class="social-link">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                    </svg>
+                    GitHub
+                </a>
+                <!-- Add more social links as needed:
+                <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener" class="social-link">LinkedIn</a>
+                <a href="https://discord.com/users/yourid" target="_blank" rel="noopener" class="social-link">Discord</a>
+                -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 GraceInCode. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

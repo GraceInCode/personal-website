@@ -1,0 +1,18 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.log
+
+# Environment variables (if you add backend later)
+.env
+.env.local
+
+*.md  # Ignores all Markdown files
+!README.md
